@@ -1,0 +1,85 @@
+/*--termina  primer section Michael  Jackson imagen -*/
+/* INicios Ultimas noticias */
+
+.news-section {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .news-section h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #000; /* Color negro */
+  }
+  .news-section h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #f33f3f; 
+  }
+  
+  .page-heading .texto-content h4 {
+	color: #fff8f8;
+	font-size: 22px;
+	text-transform: uppercase;
+	font-weight: 700;
+	margin-bottom: 15px;
+}
+
+.page-heading .texto-content h2 {
+	color: #f33f3f;
+	font-size: 62px;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+}
+
+
+/**/
+
+.michael {
+    background-color: #000000;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ajusta al 100% del alto de la ventana */
+}
+
+/* Contenedor principal */
+.michael .content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1200px; /* Ancho máximo */
+    width: 100%;
+    gap: 1px; /* Espaciado entre elementos */
+}
+
+
+.michael .description {
+    max-width: 500px;
+    width: 50%;
+    background-color: #030303;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.michael .description p {
+    font-size: 30px;
+    line-height: 1.6;
+    color: #ffffff;
+}
+
+
+.read-more-btn {
+    background-color: rgb(255, 252, 252);
+    color: BLACK;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
